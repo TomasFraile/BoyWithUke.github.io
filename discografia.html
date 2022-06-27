@@ -13,26 +13,52 @@
 
 <body class="imagen3">
     <header>
-        <div class="redes">
-            <a href="https://www.youtube.com/channel/UCA3PLfFMuT963D-qGVjAFaw/videos">Youtube</a>
-            <a href="https://www.instagram.com/boywithuke/">Instagram</a>
-            <a href="https://open.spotify.com/album/0NzheutoSuzfMlENTnHTQl?si=c0xm9XZ3TYqIo5klYhES3Q&nd=1">Spotify</a>
-        </div>
-        <nav>
-            <ul class="enlaces">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="informacion.html">Informacion</a></li>
-                <li><a href="historia.html">Historia</a></li>
-                <li><a href="discografia.html">Discografia</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Logo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="informacion.html">Informacion</a></li>
+                  <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+                  <li class="nav-item"><a class="nav-link" href="discografia.html">Discografia</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                  <div class="collapse navbar-collapse redes" id="navbarSupportedContent">
+                    <nav class="navbar">
+                        <div class="container">
+                          <a class="navbar-brand" href="https://www.youtube.com/channel/UCA3PLfFMuT963D-qGVjAFaw/videos">Youtube
+                            <img src="../img/1384060.png" alt="Youtube" width="30" height="30">
+                          </a>
+                        </div>
+                      </nav>
+                      <nav class="navbar">
+                        <div class="container">
+                          <a class="navbar-brand" href="https://www.instagram.com/boywithuke/">Instagram
+                            <img src="../img/Instagram_logo_2016.svg.webp" alt="Youtube" width="30" height="30">
+                          </a>
+                        </div>
+                      </nav>
+                      <nav class="navbar">
+                        <div class="container">
+                          <a class="navbar-brand" href="https://open.spotify.com/album/0NzheutoSuzfMlENTnHTQl?si=c0xm9XZ3TYqIo5klYhES3Q&nd=1">Spotify
+                            <img src="../img/Spotify_logo_without_text.svg.png" alt="Youtube" width="30" height="30">
+                          </a>
+                        </div>
+                      </nav> 
+                </div>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <div class="container mb-5">
         <h4>Melatonin dream</h4>
         <div class="album__melatonin row">
             <div class="col-md-4">
-                <img src="https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/5/c/4/e/1200451637766953-tb_180.jpg" class="img-rounded" alt="Melatonin Dreams">
+                <img class="imagenesZoom" src="https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/5/c/4/e/1200451637766953-tb_180.jpg">
             </div>
             <div class="col-md-4">
                 <ul>
@@ -57,7 +83,7 @@
         <h4>Trouvaille</h4>
         <div class="album__trouvaille row">
             <div class="col-md-4">
-                <img src="https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/8/a/b/b/1200431637766822-tb_180.jpg">
+                <img class="imagenesZoom" src="https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/8/a/b/b/1200431637766822-tb_180.jpg">
             </div>
             <div class="col-md-4">
                 <ul>
@@ -72,7 +98,7 @@
         <h4>Fever Dreams</h4>
         <div class="album__fever row">
             <div class="col-md-4">
-                <img src="https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/c/5/c/8/1198651637670667-tb_180.jpg">
+                <img class="imagenesZoom" src="https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/c/5/c/8/1198651637670667-tb_180.jpg">
             </div>
             <div class="col-md-4">
                 <ul>
@@ -91,12 +117,14 @@
         </div>
     </div>
 
-    <footer class="footer">
-        <div>
+    <footer class="container-fluid footer">
+        <div class="row">
+            <div class="col-md-12 text-center">
             <h3>LOGO</h3>
             <h3>Copyright</h3>
             <h3> <a href="contacto.html">Contacto</a></h3>
         </div>
+    </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>

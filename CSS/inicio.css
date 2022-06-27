@@ -26,7 +26,6 @@ a {
 .enlaces {
     display: flex;
     justify-content: space-around;
-    text-align: center;
     list-style-type: none;
     border: solid 2px aqua;
     padding: 20px;
@@ -36,18 +35,20 @@ a {
     background-image: linear-gradient(to right, rgba(0, 255, 179, 0.3), rgba(0, 0, 255, 0.3), rgba(98, 0, 255, 0.3));
 }
 
+.redes a {
+    text-decoration: none;
+}
+
 .enlaces li a {
     color: beige;
+    text-decoration: none;
 }
 
 table {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 28px;
     border: solid 4px aqua;
     color: aqua;
-    border-spacing: 12px;
-    line-height: 35px;
-    padding: 10px;
 }
 
 .tabla {
@@ -70,37 +71,33 @@ table {
     background-size: cover;
 }
 
-.redes {
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
-    border: solid 2px aqua;
-    padding: 15px;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 10px;
-    background-image: linear-gradient(to right, rgba(0, 255, 179, 0.3), rgba(0, 0, 255, 0.3), rgba(98, 0, 255, 0.3));
-}
+
 
 .tabla table {
     background-color: rgba(0, 0, 0, 0.7);
-    font-size: 18px;
+    font-size: 26px;
+    border-spacing: 16px;
+    line-height: 35px;
+    padding: 12px;
 }
 
 .tabla table td {
     text-align: center;
     padding-inline: 10px;
+    border: solid 3px aqua;
 }
 
 .tabla table th {
     padding-inline: 10px;
     text-align: center;
+    border: solid 3px aqua;
 }
 
 .imagen3 {
     background-image: url("https://i.ytimg.com/vi/3g2Zbyr_paM/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .album__melatonin {
@@ -115,7 +112,6 @@ table {
     font-size: 18px;
     color: aqua;
     background-image: linear-gradient(to right, rgba(0, 255, 179, 0.3), rgba(0, 0, 255, 0.3), rgba(98, 0, 255, 0.3));
-    display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 50px;
@@ -237,6 +233,48 @@ h4 {
     background-color: bisque;
     color: aqua;
 }
+
+.imagenesZoom:hover {
+    transform: scale(1.4,1.4);
+}
+
+a:hover {
+    transform: scale(1.2,1.2);
+}
+
+li a:hover {
+    transform: scale(1.2,1.2);
+}
+
+h3:hover {
+    transform: scale(1.2,1.2);
+}
+
+.boton:hover {
+    background-color: black;
+    color: aqua;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, rgba(0, 255, 179, 0.5), rgba(0, 0, 255, 0.5), rgba(98, 0, 255, 0.5));
+    font-size: 24px;
+    display: flex;
+}
+
+.nav-link {
+    color: rgb(68, 0, 255);
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: rgba(7, 85, 85, 0.6);
+    transform: scale(1.1,1.1);
+}
+
+.navbar-brand {
+    color: rgb(68, 0, 255);
+}
+
 
 @media screen and (min-width: 768px) {
     #grid2 {
