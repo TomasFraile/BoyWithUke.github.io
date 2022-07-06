@@ -16,11 +16,6 @@
   transform: scale(1.1, 1.1);
 }
 
-.imagen, .fondoInfo, .imagen3, .imagen4, .imagen5 {
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .imagen {
   background-image: url("https://consequence.net/wp-content/uploads/2022/04/boywithuke-origiins.jpg?quality=80&w=1031&h=580&crop=1&resize=1031%2C580&strip");
 }
@@ -31,7 +26,6 @@
 
 .imagen3 {
   background-image: url("https://i.ytimg.com/vi/3g2Zbyr_paM/maxresdefault.jpg");
-  background-position: center;
 }
 
 .imagen4 {
@@ -40,6 +34,11 @@
 
 .imagen5 {
   background-image: url("https://images.genius.com/b4818e145a987311c36b14d7f15e6524.1920x1080x1.jpg");
+}
+
+.imagen, .fondoInfo, .imagen3, .imagen4, .imagen5 {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer {
@@ -108,7 +107,7 @@ form .boton:hover {
   font-size: 40px;
 }
 
-.album__melatonin {
+.album__melatonin, .album__fever, .album__trouvaille {
   list-style-type: none;
   background-repeat: no-repeat;
   display: flex;
@@ -125,51 +124,7 @@ form .boton:hover {
   padding: 50px;
 }
 
-.album__melatonin ul {
-  list-style: none;
-}
-
-.album__trouvaille {
-  list-style-type: none;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: solid 2px rgb(0, 255, 255);
-  background-position: left;
-  text-align: center;
-  font-size: 18px;
-  color: rgb(0, 255, 255);
-  background-image: linear-gradient(to right, rgba(0, 255, 179, 0.3), rgba(0, 0, 255, 0.3), rgba(98, 0, 255, 0.3));
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 50px;
-}
-
-.album__trouvaille ul {
-  list-style: none;
-}
-
-.album__fever {
-  list-style-type: none;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: solid 2px rgb(0, 255, 255);
-  background-position: left;
-  text-align: center;
-  font-size: 18px;
-  color: rgb(0, 255, 255);
-  background-image: linear-gradient(to right, rgba(0, 255, 179, 0.3), rgba(0, 0, 255, 0.3), rgba(98, 0, 255, 0.3));
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 50px;
-}
-
-.album__fever ul {
+.album__melatonin ul, .album__fever ul, .album__trouvaille ul {
   list-style: none;
 }
 

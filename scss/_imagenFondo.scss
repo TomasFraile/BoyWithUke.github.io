@@ -1,25 +1,9 @@
+@each $fondoImagen, $url in $imagenesFondo {
+    .#{$fondoImagen} {
+        background-image:url($url);
+    }
+}
 .imagen, .fondoInfo, .imagen3, .imagen4, .imagen5 {
     background-repeat: no-repeat;
      background-size: cover;
   }
-
-.imagen {
-    background-image: url("https://consequence.net/wp-content/uploads/2022/04/boywithuke-origiins.jpg?quality=80&w=1031&h=580&crop=1&resize=1031%2C580&strip");
-}
-
-.fondoInfo {
-    background-image: url("https://www.billboard.com/wp-content/uploads/2022/02/BoyWithUke-cr-Brian-Ziff-press-2022-billboard-1548.jpg");
-}
-
-.imagen3 {
-    background-image: url("https://i.ytimg.com/vi/3g2Zbyr_paM/maxresdefault.jpg");
-    background-position: center;
-}
-
-.imagen4 {
-    background-image: url("https://i.vimeocdn.com/video/1393880467-b08bda0570d8ab468a9f6566376778d09cda01125f8aa97db7b413c1537890d2-d_640");
-}
-
-.imagen5 {
-    background-image: url("https://images.genius.com/b4818e145a987311c36b14d7f15e6524.1920x1080x1.jpg");
-}
