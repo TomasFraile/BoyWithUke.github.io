@@ -1,0 +1,13 @@
+.navbar {
+    background-image: linear-gradient(to right,$verdeA, $azulA, $violetaA);
+    font-size: 24px;
+    .nav-item{
+    .nav-link, .navbar-brand {
+        color: $violeta;
+    &:hover {
+        color: $celesteA;
+        transform: scale(1.1, 1.1);
+    }
+   }
+ }
+}

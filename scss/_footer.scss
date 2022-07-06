@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 2px $aqua;
+    padding: 18px;
+    font-size: 12px;
+    font-family: "Times New Roman", Times, serif;
+    background-image: linear-gradient(to right, rgba(0, 255, 179, 0.3), rgba(0, 0, 255, 0.3), rgba(98, 0, 255, 0.3));
+     h3, a {
+      color: $blanco;
+      &:hover {
+        transform: scale(1.2, 1.2);
+      }
+    }
+  }

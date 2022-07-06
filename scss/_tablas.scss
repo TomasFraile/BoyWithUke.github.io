@@ -1,0 +1,38 @@
+table {
+    font-size: 24px;
+    line-height: 28px;
+    border: solid 4px $aqua;
+    color: $aqua;
+}
+    .tabla {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        padding: 10px; 
+    }
+    .tabla table {
+        background-color:$negroA ;
+        font-size: 26px;
+        border-spacing: 16px;
+        line-height: 35px;
+        padding: 12px;
+      }
+      td, th {
+        text-align: center;
+        padding-inline: 10px;
+        border: solid 3px $aqua;
+      }
+
+      form {
+        border: solid 2px $aqua;
+        padding: 10px;
+        font-size: 18px;
+        color: $aqua;
+        border-spacing: 5px;
+        line-height: 30px;
+        .boton:hover {
+            background-color:$negro;
+            color: $aqua;
+          }
+      }

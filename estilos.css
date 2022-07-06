@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, rgba(0, 255, 179, 0.5), rgba(0, 0, 255, 0.5), rgba(98, 0, 255, 0.5));
+  font-size: 24px;
+}
+.navbar .nav-item .nav-link, .navbar .nav-item .navbar-brand {
+  color: rgb(68, 0, 255);
+}
+.navbar .nav-item .nav-link:hover, .navbar .nav-item .navbar-brand:hover {
+  color: rgba(7, 85, 85, 0.6);
+  transform: scale(1.1, 1.1);
+}
+
+.imagen, .fondoInfo, .imagen3, .imagen4, .imagen5 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen {
+  background-image: url("https://consequence.net/wp-content/uploads/2022/04/boywithuke-origiins.jpg?quality=80&w=1031&h=580&crop=1&resize=1031%2C580&strip");
+}
+
+.fondoInfo {
+  background-image: url("https://www.billboard.com/wp-content/uploads/2022/02/BoyWithUke-cr-Brian-Ziff-press-2022-billboard-1548.jpg");
+}
+
+.imagen3 {
+  background-image: url("https://i.ytimg.com/vi/3g2Zbyr_paM/maxresdefault.jpg");
+  background-position: center;
+}
+
+.imagen4 {
+  background-image: url("https://i.vimeocdn.com/video/1393880467-b08bda0570d8ab468a9f6566376778d09cda01125f8aa97db7b413c1537890d2-d_640");
+}
+
+.imagen5 {
+  background-image: url("https://images.genius.com/b4818e145a987311c36b14d7f15e6524.1920x1080x1.jpg");
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid 2px rgb(0, 255, 255);
+  padding: 18px;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  background-image: linear-gradient(to right, rgba(0, 255, 179, 0.3), rgba(0, 0, 255, 0.3), rgba(98, 0, 255, 0.3));
+}
+.footer h3, .footer a {
+  color: rgb(255, 255, 255);
+}
+.footer h3:hover, .footer a:hover {
+  transform: scale(1.2, 1.2);
+}
+
+table {
+  font-size: 24px;
+  line-height: 28px;
+  border: solid 4px rgb(0, 255, 255);
+  color: rgb(0, 255, 255);
+}
+
+.tabla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  padding: 10px;
+}
+
+.tabla table {
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 26px;
+  border-spacing: 16px;
+  line-height: 35px;
+  padding: 12px;
+}
+
+td, th {
+  text-align: center;
+  padding-inline: 10px;
+  border: solid 3px rgb(0, 255, 255);
+}
+
+form {
+  border: solid 2px rgb(0, 255, 255);
+  padding: 10px;
+  font-size: 18px;
+  color: rgb(0, 255, 255);
+  border-spacing: 5px;
+  line-height: 30px;
+}
+form .boton:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 255, 255);
+}
+
+.disco {
+  padding: 50px 100px;
+}
+.disco h4 {
+  color: rgb(0, 255, 255);
+  font-size: 40px;
+}
+
+.album__melatonin {
+  list-style-type: none;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(0, 255, 255);
+  background-position: left;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(0, 255, 255);
+  background-image: linear-gradient(to right, rgba(0, 255, 179, 0.3), rgba(0, 0, 255, 0.3), rgba(98, 0, 255, 0.3));
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+}
+
+.album__melatonin ul {
+  list-style: none;
+}
+
+.album__trouvaille {
+  list-style-type: none;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(0, 255, 255);
+  background-position: left;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(0, 255, 255);
+  background-image: linear-gradient(to right, rgba(0, 255, 179, 0.3), rgba(0, 0, 255, 0.3), rgba(98, 0, 255, 0.3));
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+}
+
+.album__trouvaille ul {
+  list-style: none;
+}
+
+.album__fever {
+  list-style-type: none;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(0, 255, 255);
+  background-position: left;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(0, 255, 255);
+  background-image: linear-gradient(to right, rgba(0, 255, 179, 0.3), rgba(0, 0, 255, 0.3), rgba(98, 0, 255, 0.3));
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+}
+
+.album__fever ul {
+  list-style: none;
+}
+
+.album__fever .imagenesZoom:hover, .album__melatonin .imagenesZoom:hover, .album__trouvaille .imagenesZoom:hover {
+  transform: scale(1.4, 1.4);
+}
+
+.h3 {
+  display: grid;
+  align-content: center;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(0, 255, 255);
+  padding: 10px;
+  line-height: 30px;
+}
+
+h4 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(0, 255, 255);
+}
+
+.texto {
+  display: grid;
+  display: flex;
+  text-align: right;
+  grid-column: 2;
+  border: solid 2px rgb(0, 255, 255);
+  padding: 15px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(0, 255, 255);
+}/*# sourceMappingURL=estilos.css.map */

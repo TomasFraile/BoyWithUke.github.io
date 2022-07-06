@@ -1,0 +1,150 @@
+
+
+  
+
+  
+  .h3 {
+    display: grid;
+    align-content: center;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(0, 255, 255);
+    padding: 10px;
+    line-height: 30px;
+  }
+  
+  h4 {
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(0, 255, 255);
+  }
+  
+  .texto {
+    display: grid;
+    display: flex;
+    text-align: right;
+    grid-column: 2;
+    border: solid 2px rgb(0, 255, 255);
+    padding: 15px;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(0, 255, 255);
+  }
+  
+  #imagen {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  a:hover {
+    transform: scale(1.2, 1.2);
+  }
+  
+  li a:hover {
+    transform: scale(1.2, 1.2);
+  }
+
+
+  
+  @media screen and (min-width: 768px) {
+    #grid2 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .texto {
+      border: 4px solid darkgray;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: aqua;
+    }
+    .enlaces {
+      border: 4px solid darkgray;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: aqua;
+    }
+    .footer {
+      border: 4px solid darkgray;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: aqua;
+    }
+  }
+  #imagen5 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .enlaces {
+    border: 4px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+  }
+  
+  .texto {
+    border: 4px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+  }
+  
+  .footer {
+    border: 4px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+  }
+  
+  .h3 {
+    border: 4px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+    font-size: 12px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    #grid2 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .texto {
+      border: 4px solid darkgray;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: aqua;
+    }
+    .enlaces {
+      border: 4px solid darkgray;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: aqua;
+    }
+    .footer {
+      border: 4px solid darkgray;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: aqua;
+    }
+    .h3 {
+      border: 4px solid darkgray;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: aqua;
+      font-size: 14px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    #grid2 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .texto {
+      border: 4px solid darkgray;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: aqua;
+    }
+    .enlaces {
+      border: 4px solid darkgray;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: aqua;
+    }
+    .footer {
+      border: 4px solid darkgray;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: aqua;
+    }
+    .h3 {
+      border: 4px solid darkgray;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: aqua;
+      font-size: 18px;
+    }
+  }

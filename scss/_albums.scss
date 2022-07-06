@@ -1,0 +1,75 @@
+.disco {
+    padding: 50px 100px;
+    h4 {
+        color: $aqua;
+    font-size: 40px;
+    }
+
+}
+.album__melatonin {
+    list-style-type: none;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px $aqua;
+    background-position: left;
+    text-align: center;
+    font-size: 18px;
+    color: $aqua;
+    background-image: linear-gradient(to right, rgba(0, 255, 179, 0.3), rgba(0, 0, 255, 0.3), rgba(98, 0, 255, 0.3));
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+  }
+  .album__melatonin ul {
+    list-style: none;
+  }
+
+  .album__trouvaille {
+    list-style-type: none;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px $aqua;
+    background-position: left;
+    text-align: center;
+    font-size: 18px;
+    color: $aqua;
+    background-image: linear-gradient(to right, rgba(0, 255, 179, 0.3), rgba(0, 0, 255, 0.3), rgba(98, 0, 255, 0.3));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+  }
+  .album__trouvaille ul {
+    list-style: none;
+  }
+
+  .album__fever {
+    list-style-type: none;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px $aqua;
+    background-position: left;
+    text-align: center;
+    font-size: 18px;
+    color: $aqua;
+    background-image: linear-gradient(to right, rgba(0, 255, 179, 0.3), rgba(0, 0, 255, 0.3), rgba(98, 0, 255, 0.3));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+  }
+  .album__fever ul {
+    list-style: none;
+  }
+
+  .album__fever, .album__melatonin, .album__trouvaille {
+    .imagenesZoom:hover {
+        transform: scale(1.4, 1.4);
+      }
+  }
