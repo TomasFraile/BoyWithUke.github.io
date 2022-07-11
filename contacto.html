@@ -52,45 +52,43 @@
       </nav>
 </header>
     <form>
-        <label for="nombre">
-            Tu nombre
-        </label>
-        <input type="text" id="nombre">
-        <br/>
-        <label for="apellido">
-            Tu Apellido
-        </label>
-        <input type="text" id="apellido">
-        <br/>
-        <label for="email">
-            Tu email
-        </label>
-        <input type="text" id="email">
-        <br/>
-        <select>
-            <option selected="selected">Seleccione su estado civil</option>
-            <option>Soltero/a</option>
-            <option>Casado/a</option>
-        </select>
-        <br/>
-        <label>
-            ¿Quisiera recibir notificaciones de nuevos lanzamientos?
-        </label>
-        <br/>
-        <span>Si</span>
-        <input type="checkbox" name="aceptar">
-        <span>No</span>
-        <input type="checkbox" name="denegarse">
-        <br/>
-        <label for="comentarios">
-            ¿Algun comentario extra?
-        </label>
-        <br/>
-        <textarea id="comentarios" rows="10" cols="50"></textarea>
-        <br/>
-        <input class="boton" type="submit" value="Enviar formulario">
-        <input class="boton" type="reset" value="Borrar formulario">
+      <div class= "form-row">
+        <div class="form-group col-md-6">
+          <label for="formGroupExampleInput">Nombre</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese su nombre">
+        </div>
+        <div class= "form-group col-md-6">
+          <label for="formGroupExampleInput2">Apellido</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ingrese su apellido">
+        </div>
+        <div class="form-group col-md-6">
+        <label for="exampleInputEmail1">Direccion de correo</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="exampleInputPassword1">Contraseña</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su Contraseña">
+      </div>
+    <div class="form-group col-md-6">
+      <label for="exampleFormControlSelect1">Seleccione su estado civil</label>
+      <select class="form-control" id="exampleFormControlSelect1" placeholder="Seleccione su estado civil">
+        <option>Soltero/a</option>
+        <option>Casado/a</option>
+      </select>
+    </div>
+    <div class="form-check ">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">¿Desea recibir notificaciones de proximos lanzamientos?</label>
+    </div>
+  </div>
+    <div class="form-group col-md-6">
+      <label for="exampleFormControlTextarea1">¿Algun comentario extra?</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+      <button type="submit" class="boton btn btn-primary">Enviar</button>
+      <button type="reset" class="boton btn btn-primary">Borrar</button>
     </form>
+
     <footer class="footer">
         <h3>LOGO</h3>
         <h3>Copyright</h3>
