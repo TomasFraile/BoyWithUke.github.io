@@ -148,3 +148,8 @@
       font-size: 18px;
     }
   }
+
+  .card {
+    background-image: linear-gradient(to right, rgba(0, 255, 179, 0.3), rgba(0, 0, 255, 0.3), rgba(98, 0, 255, 0.3));
+
+  }
